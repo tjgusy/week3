@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.user.week2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:background="#9b4229"
+        >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="친구"
+           android:textSize="39dp"
+           android:textColor="#ffffff"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text= " 010"
+           android:textSize="39dp"
+           android:textColor="#ffb702"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:background="#9b4229">
+       <Button
+           android:layout_width="80dp"
+           android:layout_height="wrap_content"
+           android:background="@drawable/user"/>
+
+       <Button
+           android:layout_width="80dp"
+           android:layout_height="wrap_content"
+           android:background="@drawable/speech_bubble"/>
+       <LinearLayout
+           android:layout_width="140dp"
+           android:layout_height="wrap_content">
+
+       </LinearLayout>
+       <Button
+           android:layout_width="40dp"
+           android:layout_height="wrap_content"
+           android:background="@drawable/megaphone"/>
+       <Button
+           android:layout_width="40dp"
+           android:layout_height="wrap_content"
+           android:background="@drawable/list"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+       <Button
+           android:layout_width="40dp"
+           android:layout_height="wrap_content"
+           android:background="@drawable/zoom_in"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="이름검색"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="내 프로필"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#9c9797">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="  최서현"
+            android:textSize="18dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="즐겨찾기"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#9c9797">
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="2dp"
+       android:background="#9c9797">
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="40dp">
+      <Button
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:background="@drawable/profile"/>
+      <TextView
+          android:layout_width="80dp"
+          android:layout_height="wrap_content"
+          android:text="  경이"
+          android:textSize="18dp"
+          android:textColor="#000000"/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="친구 010"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#9c9797">
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="peace.listview.MainActivity">
+
+
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true">
+        </ListView>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
